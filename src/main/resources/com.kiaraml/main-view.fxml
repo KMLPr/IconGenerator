@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kiaraml.MainController">
+   <center>
+      <Pane fx:id="iconPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="435.0" layoutY="8.0" prefHeight="385.0" prefWidth="151.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#generateIcon" prefHeight="26.0" prefWidth="152.0" text="Generate Icon" />
+                  <ChoiceBox prefHeight="37.0" prefWidth="150.0" />
+                  <ColorPicker prefHeight="37.0" prefWidth="151.0" promptText="Choose A Color" />
+                  <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="152.0" text="Export into PNG" textFill="#e11e1e" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
